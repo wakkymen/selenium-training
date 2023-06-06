@@ -6,10 +6,10 @@ def performtest():
     driver = webdriver.Chrome()
     testdata = []
     testdata['url'] = "https://psychologbarlinek.pl/"
-    testdata['title'] = "t"
-    testdata['header'] = ""
-    testdata['content_header'] = ""
-    testdata['offerpagename'] = ""
+    testdata['title'] = "Gabinet Psychologiczny Diagnoza & Terapia - Agnieszka Komorowska"
+    testdata['header'] = "Gabinet Psychologiczny Diagnoza & Terapia Agnieszka Komorowska"
+    testdata['content_header'] = "Bo w życiu chodzi o ludzi"
+    testdata['offerpagename'] = "Oferta"
     test_pageload(driver, testdata)
     test_pages(driver, testdata)
     
